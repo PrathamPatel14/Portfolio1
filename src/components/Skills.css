@@ -73,4 +73,32 @@
   color: #6c5ce7;
   background: #eee;
   transform: translateX(5px);
+}
+
+@media (max-width: 768px) {
+  .skills {
+    padding: 4rem 1rem;
+  }
+
+  .skills-grid {
+    gap: 1.5rem;
+  }
+
+  .skill-category {
+    padding: 1.5rem;
+  }
+
+  .skill-category h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .skill-category ul {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-category li {
+    padding: 0.6rem;
+    font-size: 0.9rem;
+  }
 } 
